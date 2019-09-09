@@ -59,7 +59,10 @@ ROOT_URLCONF = 'demo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        #指向django的模板引擎 现在用的是django模板引擎 jinja2
+        #定义一个目录列表，寻找模板的位置
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
+        #默认 True 默认会在app中寻找模板（templates）
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -129,3 +132,6 @@ USE_TZ = True
 
 # 静态文件的配置
 STATIC_URL = '/static/'
+STATICFILES_DIRS=(
+    os.path.join(BASE_DIR,'static'),
+)

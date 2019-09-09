@@ -19,10 +19,18 @@ from .import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.about),#因为路由匹配规则是从上到下，所以输入index，显示about页面的内容
+    # path('index/', views.about),#因为路由匹配规则是从上到下，所以输入index，显示about页面的内容
     path('index/', views.index),
     path('about/', views.about),
     re_path(r'^$',views.index),#这个是当输入http://127.0.0.1:8000/，后面为空，就不会再报错而是转向index页面
     re_path(r'urltest/(\d)',views.urltest),#这样可以传值
     re_path(r'urltestnew/(?P<year>\d{4})/(?P<city>\w+)', views.urltestnew),#这里使用正则表达式，语句相当于year=\d{4}...,给固定了，所以在传给页面的时候值就不会乱
+
+    path('gethtml/',views.gethtml),
+    path('indextmp/',views.indextmp),
+    path('abc/',views.abc),
+    re_path('tpltest/(\d+)',views.tpltest),
+    path("statictest/",views.statictest),
+    path("staticdemo/",views.staticdemo),
+    path("staticdemo2/",views.staticdemo2)
 ]
