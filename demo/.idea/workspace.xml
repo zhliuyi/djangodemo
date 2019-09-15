@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9eb485f-9c06-4010-b238-4f62cc9f2c94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app01/migrations/0003_auto_20190911_0927.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/migrations/0004_auto_20190911_1123.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/migrations/0005_auto_20190911_2029.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0006_teacher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/urls.py" afterDir="false" />
     </list>
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app01/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="35" column="21" selection-start-line="34" selection-start-column="68" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="1404">
+              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app01/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="405">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -40,34 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app01/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4698">
-              <caret line="176" column="22" selection-start-line="175" selection-start-column="48" selection-end-line="176" selection-end-column="22" />
+            <state relative-caret-position="162">
+              <caret line="130" column="13" lean-forward="true" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/Anaconda3/envs/DjangoPath/Lib/site-packages/django/db/models/sql/query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31212">
-              <caret line="1186" selection-start-line="1186" selection-end-line="1186" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app01/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,18 +83,18 @@
         <option value="$PROJECT_DIR$/demo/__init__.py" />
         <option value="E:/Anaconda3/envs/DjangoPath/Lib/site-packages/django/db/backends/mysql/base.py" />
         <option value="E:/Anaconda3/envs/DjangoPath/Lib/site-packages/django/db/backends/mysql/operations.py" />
+        <option value="$PROJECT_DIR$/app01/admin.py" />
         <option value="$PROJECT_DIR$/app01/models.py" />
         <option value="$PROJECT_DIR$/app01/urls.py" />
         <option value="$PROJECT_DIR$/app01/views.py" />
-        <option value="$PROJECT_DIR$/app01/admin.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="438" />
-    <option name="y" value="45" />
-    <option name="width" value="831" />
-    <option name="height" value="686" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="510" />
+    <option name="y" value="6" />
+    <option name="width" value="974" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,13 +138,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/第一阶段/pywork" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -306,7 +283,10 @@
       <workItem from="1568075285023" duration="1447000" />
       <workItem from="1568094256140" duration="21090000" />
       <workItem from="1568160907516" duration="19015000" />
-      <workItem from="1568210648576" duration="647000" />
+      <workItem from="1568210648576" duration="1382000" />
+      <workItem from="1568245966029" duration="10212000" />
+      <workItem from="1568542847910" duration="9112000" />
+      <workItem from="1568554589369" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="day1代码：正则、简介、路由">
       <created>1567963049670</created>
@@ -329,22 +309,29 @@
       <option name="project" value="LOCAL" />
       <updated>1568124744682</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day4代码：ORM操作 站点">
+      <created>1568211350115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568211350115</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82808000" />
+    <option name="totallyTimeSpent" value="103374000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="438" y="45" width="831" height="686" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14526589" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12632374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27305606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34707904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,7 +342,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.9347826" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="manage.py@demo" order="13" weight="0.42532468" />
+      <window_info anchor="bottom" id="manage.py@demo" order="13" weight="0.40378007" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,7 +380,8 @@
     <MESSAGE value="day1代码：正则、简介、路由" />
     <MESSAGE value="day2代码：模板 静态文件" />
     <MESSAGE value="day3代码：博客 app ORM" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3代码：博客 app ORM" />
+    <MESSAGE value="day4代码：ORM操作 站点" />
+    <option name="LAST_COMMIT_MESSAGE" value="day4代码：ORM操作 站点" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/demo$views.coverage" NAME="views Coverage Results" MODIFIED="1568009810106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
@@ -559,13 +547,6 @@
     <entry file="file://$PROJECT_DIR$/app01/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app01/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -601,17 +582,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/envs/DjangoPath/Lib/site-packages/django/db/models/sql/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40797">
+          <caret line="1186" selection-start-line="1186" selection-end-line="1186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app01/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="21" selection-start-line="34" selection-start-column="68" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="1404">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app01/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="405">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -620,27 +622,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4698">
-          <caret line="176" column="22" selection-start-line="175" selection-start-column="48" selection-end-line="176" selection-end-column="22" />
+        <state relative-caret-position="162">
+          <caret line="130" column="13" lean-forward="true" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Anaconda3/envs/DjangoPath/Lib/site-packages/django/db/models/sql/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31212">
-          <caret line="1186" selection-start-line="1186" selection-end-line="1186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app01/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

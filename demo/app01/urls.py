@@ -8,4 +8,14 @@ urlpatterns = [
     path("updateperson/",updateperson),
     path('addonemore/', addonemore),
     path('getonemore/', getonemore),
+    path('updateonemore/', updateonemore),
+    path('deleteonemore/', deleteonemore),
+    path('manytomanyadd/', manytomanyadd),
+    path('manytomanyget/', manytomanyget),
+    path('manytomanyupdate/', manytomanyupdate),
+    path('manytomanydelete/', manytomanydelete),
+    path('jhtest/', jhtest),
+    path('Ftest/', Ftest),
+    path('Qtest/', Qtest),
+
 ]
